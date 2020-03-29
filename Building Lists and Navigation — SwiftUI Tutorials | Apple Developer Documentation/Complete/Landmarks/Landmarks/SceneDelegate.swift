@@ -1,10 +1,9 @@
-//
-//  SceneDelegate.swift
-//  News
-//
-//  Created by Ong Wei Yee on 2020/3/22.
-//  Copyright © 2020 Carol. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+The scene delegate.
+*/
 
 import UIKit
 import SwiftUI
@@ -13,11 +12,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-       let storyboard = UIStoryboard(name: "LaunchScreen", bundle: nil)
-       window?.rootViewController = storyboard.instantiateInitialViewController()
-    }
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+        // Use a UIHostingController as window root view controller
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UIHostingController(rootView: LandmarkList())
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -48,6 +54,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
-
+}
 
