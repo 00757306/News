@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF618D56243222CD0009F724 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF618D55243222CD0009F724 /* Webview.swift */; };
 		EF8CBAEE242732C900F59589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8CBAED242732C900F59589 /* AppDelegate.swift */; };
 		EF8CBAF0242732C900F59589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8CBAEF242732C900F59589 /* SceneDelegate.swift */; };
 		EF8CBAF2242732CA00F59589 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8CBAF1242732CA00F59589 /* ContentView.swift */; };
@@ -14,8 +15,6 @@
 		EF8CBAF7242732CF00F59589 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8CBAF6242732CF00F59589 /* Preview Assets.xcassets */; };
 		EF8CBAFA242732CF00F59589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8CBAF8242732CF00F59589 /* LaunchScreen.storyboard */; };
 		EFBA0EA3242752ED005A7A4D /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA0EA2242752ED005A7A4D /* Mountain.swift */; };
-		EFBA0EA5242753EA005A7A4D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA0EA4242753EA005A7A4D /* DetailView.swift */; };
-		EFBA0EA7242757AF005A7A4D /* IamgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA0EA6242757AF005A7A4D /* IamgeView.swift */; };
 		EFBA0EAB24276928005A7A4D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA0EAA24276928005A7A4D /* MapView.swift */; };
 		EFF794E12430CD9D004C95E6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF794E02430CD9D004C95E6 /* NewsView.swift */; };
 		EFF794E92430E1B0004C95E6 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF794E82430E1B0004C95E6 /* ReadViewController.swift */; };
@@ -23,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF618D55243222CD0009F724 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 		EF8CBAEA242732C900F59589 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8CBAED242732C900F59589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8CBAEF242732C900F59589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,8 +32,6 @@
 		EF8CBAF9242732CF00F59589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8CBAFB242732CF00F59589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBA0EA2242752ED005A7A4D /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
-		EFBA0EA4242753EA005A7A4D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		EFBA0EA6242757AF005A7A4D /* IamgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IamgeView.swift; sourceTree = "<group>"; };
 		EFBA0EAA24276928005A7A4D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EFF794E02430CD9D004C95E6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		EFF794E82430E1B0004C95E6 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
@@ -73,13 +71,12 @@
 				EF8CBAED242732C900F59589 /* AppDelegate.swift */,
 				EF8CBAEF242732C900F59589 /* SceneDelegate.swift */,
 				EF8CBAF1242732CA00F59589 /* ContentView.swift */,
-				EFBA0EA6242757AF005A7A4D /* IamgeView.swift */,
 				EFBA0EAA24276928005A7A4D /* MapView.swift */,
-				EFBA0EA4242753EA005A7A4D /* DetailView.swift */,
 				EFBA0EA2242752ED005A7A4D /* Mountain.swift */,
 				EF8CBAF3242732CF00F59589 /* Assets.xcassets */,
 				EFF794EA2430E8E4004C95E6 /* Color.xcassets */,
 				EF8CBAF8242732CF00F59589 /* LaunchScreen.storyboard */,
+				EF618D55243222CD0009F724 /* Webview.swift */,
 				EFF794E82430E1B0004C95E6 /* ReadViewController.swift */,
 				EFF794E02430CD9D004C95E6 /* NewsView.swift */,
 				EF8CBAFB242732CF00F59589 /* Info.plist */,
@@ -171,9 +168,8 @@
 				EFBA0EAB24276928005A7A4D /* MapView.swift in Sources */,
 				EFF794E12430CD9D004C95E6 /* NewsView.swift in Sources */,
 				EF8CBAEE242732C900F59589 /* AppDelegate.swift in Sources */,
-				EFBA0EA5242753EA005A7A4D /* DetailView.swift in Sources */,
+				EF618D56243222CD0009F724 /* Webview.swift in Sources */,
 				EFF794E92430E1B0004C95E6 /* ReadViewController.swift in Sources */,
-				EFBA0EA7242757AF005A7A4D /* IamgeView.swift in Sources */,
 				EF8CBAF0242732C900F59589 /* SceneDelegate.swift in Sources */,
 				EFBA0EA3242752ED005A7A4D /* Mountain.swift in Sources */,
 				EF8CBAF2242732CA00F59589 /* ContentView.swift in Sources */,
